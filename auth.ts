@@ -145,6 +145,7 @@ export const config = {
       return token
     },
   },
+  trustHost: true,
 } satisfies NextAuthConfig
 
 export const { handlers, auth, signIn, signOut } = NextAuth(config)
